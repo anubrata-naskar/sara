@@ -1,0 +1,78 @@
+.main{
+    display:contents;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.full-boxer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 102%;
+}
+
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.comment-box:hover{
+    margin-top: 12px;
+}
+
+.comment-box{
+    width: 350px;
+    height: fit-content;
+    background: whitesmoke;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 25px rgba(171, 171, 171, 0.795);
+}
+
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Name strong{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-family: Imprint MT Shadow;
+}
+
+.Name span{
+    color: gray;
+    font-family: Imprint MT Shadow;
+    font-style: italic;
+    text-align: left;
+    font-size: 16px;
+}
+
+.comment p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.body_std_rev{
+    background-image: url("C:\Users\anubrata\Downloads\sara2\src\img\back_yellow_3.jpg");
+    background-size: cover;
+    height: fit-content;
+}
+
+.nav_std_dash_txt_rev{
+    font-family:colonna MT;
+    text-align: center;
+}
